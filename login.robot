@@ -26,7 +26,7 @@ Invalid Login Wrong Pass
 Invalid Login Wrong Email
     Initialize Browser
     Fill Info And Login  wrongemail@giropops.com      ${valid_password}
-    Wait Until Page Contains    E-mail ou senha incorretos	15
+    Wait Until Page Contains    E-mail ou senha incorretos	10
     Close Browser
 
 
