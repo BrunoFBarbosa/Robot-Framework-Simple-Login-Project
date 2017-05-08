@@ -28,3 +28,8 @@ Invalid Login Wrong Email
     Fill Info And Login  wrongemail@giropops.com      ${valid_password}
     Wait Until Page Contains    E-mail ou senha incorretos	15
     Close Browser
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 77ad01bd6cd1e4d38c141ca5a50d742ae38165a0
