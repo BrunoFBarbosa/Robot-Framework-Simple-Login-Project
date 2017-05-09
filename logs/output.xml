@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generated="20170508 12:15:46.201" generator="Robot 3.0.2 (Python 2.7.6 on linux2)">
+<robot generated="20170508 13:13:56.048" generator="Robot 3.0.2 (Python 2.7.6 on linux2)">
 <suite source="/Simple-Login-Project/login.robot" id="s1" name="Login">
 <test id="s1-t1" name="Valid Login">
 <kw name="Initialize Browser" library="keywords">
@@ -11,14 +11,14 @@
 <arg>chrome</arg>
 <arg>http://172.17.42.1:4444/wd/hub</arg>
 </arguments>
-<msg timestamp="20170508 12:15:46.288" level="INFO">Opening browser 'gc' to base url 'https://cliente.americanas.com.br/' through remote server at 'http://172.17.42.1:4444/wd/hub'</msg>
-<status status="PASS" endtime="20170508 12:15:51.712" starttime="20170508 12:15:46.288"></status>
+<msg timestamp="20170508 13:13:56.143" level="INFO">Opening browser 'gc' to base url 'https://cliente.americanas.com.br/' through remote server at 'http://172.17.42.1:4444/wd/hub'</msg>
+<status status="PASS" endtime="20170508 13:14:01.600" starttime="20170508 13:13:56.142"></status>
 </kw>
 <kw name="Maximize Browser Window" library="Selenium2Library">
 <doc>Maximizes current browser window.</doc>
-<status status="PASS" endtime="20170508 12:15:51.856" starttime="20170508 12:15:51.713"></status>
+<status status="PASS" endtime="20170508 13:14:01.746" starttime="20170508 13:14:01.600"></status>
 </kw>
-<status status="PASS" endtime="20170508 12:15:51.857" starttime="20170508 12:15:46.288"></status>
+<status status="PASS" endtime="20170508 13:14:01.746" starttime="20170508 13:13:56.142"></status>
 </kw>
 <kw name="Fill Info And Login" library="keywords">
 <arguments>
@@ -31,8 +31,8 @@
 <arg>${email_locator}</arg>
 <arg>${anemail}</arg>
 </arguments>
-<msg timestamp="20170508 12:15:51.858" level="INFO">Typing text 'thiagosouzalima@dayrep.com' into text field 'email'</msg>
-<status status="PASS" endtime="20170508 12:15:52.105" starttime="20170508 12:15:51.857"></status>
+<msg timestamp="20170508 13:14:01.747" level="INFO">Typing text 'thiagosouzalima@dayrep.com' into text field 'email'</msg>
+<status status="PASS" endtime="20170508 13:14:02.054" starttime="20170508 13:14:01.747"></status>
 </kw>
 <kw name="Input Text" library="Selenium2Library">
 <doc>Types the given `text` into text field identified by `locator`.</doc>
@@ -40,18 +40,18 @@
 <arg>${pass_locator}</arg>
 <arg>${apass}</arg>
 </arguments>
-<msg timestamp="20170508 12:15:52.106" level="INFO">Typing text 'P4$$w0rd' into text field 'password'</msg>
-<status status="PASS" endtime="20170508 12:15:52.250" starttime="20170508 12:15:52.105"></status>
+<msg timestamp="20170508 13:14:02.054" level="INFO">Typing text 'P4$$w0rd' into text field 'password'</msg>
+<status status="PASS" endtime="20170508 13:14:02.331" starttime="20170508 13:14:02.054"></status>
 </kw>
 <kw name="Click Element" library="Selenium2Library">
 <doc>Click element identified by `locator`.</doc>
 <arguments>
 <arg>${login_button_locator}</arg>
 </arguments>
-<msg timestamp="20170508 12:15:52.251" level="INFO">Clicking element 'submit_button'.</msg>
-<status status="PASS" endtime="20170508 12:15:52.347" starttime="20170508 12:15:52.250"></status>
+<msg timestamp="20170508 13:14:02.331" level="INFO">Clicking element 'submit_button'.</msg>
+<status status="PASS" endtime="20170508 13:14:02.441" starttime="20170508 13:14:02.331"></status>
 </kw>
-<status status="PASS" endtime="20170508 12:15:52.347" starttime="20170508 12:15:51.857"></status>
+<status status="PASS" endtime="20170508 13:14:02.441" starttime="20170508 13:14:01.746"></status>
 </kw>
 <kw name="Wait Until Page Contains" library="Selenium2Library">
 <doc>Waits until `text` appears on current page.</doc>
@@ -59,21 +59,21 @@
 <arg>Não é você? Sair</arg>
 <arg>15</arg>
 </arguments>
-<status status="PASS" endtime="20170508 12:15:57.032" starttime="20170508 12:15:52.347"></status>
+<status status="PASS" endtime="20170508 13:14:08.157" starttime="20170508 13:14:02.442"></status>
 </kw>
 <kw name="Location Should Contain" library="Selenium2Library">
 <doc>Verifies that current URL contains `expected`.</doc>
 <arguments>
 <arg>minhaconta.americanas</arg>
 </arguments>
-<msg timestamp="20170508 12:15:57.045" level="INFO">Current location contains 'minhaconta.americanas'.</msg>
-<status status="PASS" endtime="20170508 12:15:57.045" starttime="20170508 12:15:57.033"></status>
+<msg timestamp="20170508 13:14:08.166" level="INFO">Current location contains 'minhaconta.americanas'.</msg>
+<status status="PASS" endtime="20170508 13:14:08.166" starttime="20170508 13:14:08.157"></status>
 </kw>
 <kw name="Close Browser" library="Selenium2Library">
 <doc>Closes the current browser.</doc>
-<status status="PASS" endtime="20170508 12:15:57.120" starttime="20170508 12:15:57.045"></status>
+<status status="PASS" endtime="20170508 13:14:08.245" starttime="20170508 13:14:08.166"></status>
 </kw>
-<status status="PASS" endtime="20170508 12:15:57.120" critical="yes" starttime="20170508 12:15:46.287"></status>
+<status status="PASS" endtime="20170508 13:14:08.245" critical="yes" starttime="20170508 13:13:56.142"></status>
 </test>
 <test id="s1-t2" name="Invalid Login Wrong Pass">
 <kw name="Initialize Browser" library="keywords">
@@ -85,14 +85,14 @@
 <arg>chrome</arg>
 <arg>http://172.17.42.1:4444/wd/hub</arg>
 </arguments>
-<msg timestamp="20170508 12:15:57.122" level="INFO">Opening browser 'gc' to base url 'https://cliente.americanas.com.br/' through remote server at 'http://172.17.42.1:4444/wd/hub'</msg>
-<status status="PASS" endtime="20170508 12:16:02.669" starttime="20170508 12:15:57.122"></status>
+<msg timestamp="20170508 13:14:08.247" level="INFO">Opening browser 'gc' to base url 'https://cliente.americanas.com.br/' through remote server at 'http://172.17.42.1:4444/wd/hub'</msg>
+<status status="PASS" endtime="20170508 13:14:13.340" starttime="20170508 13:14:08.247"></status>
 </kw>
 <kw name="Maximize Browser Window" library="Selenium2Library">
 <doc>Maximizes current browser window.</doc>
-<status status="PASS" endtime="20170508 12:16:02.807" starttime="20170508 12:16:02.669"></status>
+<status status="PASS" endtime="20170508 13:14:13.483" starttime="20170508 13:14:13.340"></status>
 </kw>
-<status status="PASS" endtime="20170508 12:16:02.807" starttime="20170508 12:15:57.121"></status>
+<status status="PASS" endtime="20170508 13:14:13.483" starttime="20170508 13:14:08.246"></status>
 </kw>
 <kw name="Fill Info And Login" library="keywords">
 <arguments>
@@ -105,8 +105,8 @@
 <arg>${email_locator}</arg>
 <arg>${anemail}</arg>
 </arguments>
-<msg timestamp="20170508 12:16:02.808" level="INFO">Typing text 'thiagosouzalima@dayrep.com' into text field 'email'</msg>
-<status status="PASS" endtime="20170508 12:16:03.049" starttime="20170508 12:16:02.808"></status>
+<msg timestamp="20170508 13:14:13.484" level="INFO">Typing text 'thiagosouzalima@dayrep.com' into text field 'email'</msg>
+<status status="PASS" endtime="20170508 13:14:13.832" starttime="20170508 13:14:13.483"></status>
 </kw>
 <kw name="Input Text" library="Selenium2Library">
 <doc>Types the given `text` into text field identified by `locator`.</doc>
@@ -114,18 +114,18 @@
 <arg>${pass_locator}</arg>
 <arg>${apass}</arg>
 </arguments>
-<msg timestamp="20170508 12:16:03.049" level="INFO">Typing text 'wrongpass' into text field 'password'</msg>
-<status status="PASS" endtime="20170508 12:16:03.215" starttime="20170508 12:16:03.049"></status>
+<msg timestamp="20170508 13:14:13.833" level="INFO">Typing text 'wrongpass' into text field 'password'</msg>
+<status status="PASS" endtime="20170508 13:14:14.080" starttime="20170508 13:14:13.833"></status>
 </kw>
 <kw name="Click Element" library="Selenium2Library">
 <doc>Click element identified by `locator`.</doc>
 <arguments>
 <arg>${login_button_locator}</arg>
 </arguments>
-<msg timestamp="20170508 12:16:03.216" level="INFO">Clicking element 'submit_button'.</msg>
-<status status="PASS" endtime="20170508 12:16:03.311" starttime="20170508 12:16:03.216"></status>
+<msg timestamp="20170508 13:14:14.081" level="INFO">Clicking element 'submit_button'.</msg>
+<status status="PASS" endtime="20170508 13:14:14.225" starttime="20170508 13:14:14.080"></status>
 </kw>
-<status status="PASS" endtime="20170508 12:16:03.311" starttime="20170508 12:16:02.807"></status>
+<status status="PASS" endtime="20170508 13:14:14.225" starttime="20170508 13:14:13.483"></status>
 </kw>
 <kw name="Wait Until Page Contains" library="Selenium2Library">
 <doc>Waits until `text` appears on current page.</doc>
@@ -133,13 +133,13 @@
 <arg>E-mail ou senha incorretos</arg>
 <arg>15</arg>
 </arguments>
-<status status="PASS" endtime="20170508 12:16:03.340" starttime="20170508 12:16:03.312"></status>
+<status status="PASS" endtime="20170508 13:14:14.257" starttime="20170508 13:14:14.225"></status>
 </kw>
 <kw name="Close Browser" library="Selenium2Library">
 <doc>Closes the current browser.</doc>
-<status status="PASS" endtime="20170508 12:16:03.414" starttime="20170508 12:16:03.341"></status>
+<status status="PASS" endtime="20170508 13:14:14.330" starttime="20170508 13:14:14.257"></status>
 </kw>
-<status status="PASS" endtime="20170508 12:16:03.414" critical="yes" starttime="20170508 12:15:57.121"></status>
+<status status="PASS" endtime="20170508 13:14:14.331" critical="yes" starttime="20170508 13:14:08.246"></status>
 </test>
 <test id="s1-t3" name="Invalid Login Wrong Email">
 <kw name="Initialize Browser" library="keywords">
@@ -151,14 +151,14 @@
 <arg>chrome</arg>
 <arg>http://172.17.42.1:4444/wd/hub</arg>
 </arguments>
-<msg timestamp="20170508 12:16:03.416" level="INFO">Opening browser 'gc' to base url 'https://cliente.americanas.com.br/' through remote server at 'http://172.17.42.1:4444/wd/hub'</msg>
-<status status="PASS" endtime="20170508 12:16:08.702" starttime="20170508 12:16:03.416"></status>
+<msg timestamp="20170508 13:14:14.332" level="INFO">Opening browser 'gc' to base url 'https://cliente.americanas.com.br/' through remote server at 'http://172.17.42.1:4444/wd/hub'</msg>
+<status status="PASS" endtime="20170508 13:14:18.891" starttime="20170508 13:14:14.332"></status>
 </kw>
 <kw name="Maximize Browser Window" library="Selenium2Library">
 <doc>Maximizes current browser window.</doc>
-<status status="PASS" endtime="20170508 12:16:08.844" starttime="20170508 12:16:08.702"></status>
+<status status="PASS" endtime="20170508 13:14:19.031" starttime="20170508 13:14:18.891"></status>
 </kw>
-<status status="PASS" endtime="20170508 12:16:08.844" starttime="20170508 12:16:03.415"></status>
+<status status="PASS" endtime="20170508 13:14:19.031" starttime="20170508 13:14:14.332"></status>
 </kw>
 <kw name="Fill Info And Login" library="keywords">
 <arguments>
@@ -171,8 +171,8 @@
 <arg>${email_locator}</arg>
 <arg>${anemail}</arg>
 </arguments>
-<msg timestamp="20170508 12:16:08.845" level="INFO">Typing text 'wrongemail@giropops.com' into text field 'email'</msg>
-<status status="PASS" endtime="20170508 12:16:09.089" starttime="20170508 12:16:08.845"></status>
+<msg timestamp="20170508 13:14:19.032" level="INFO">Typing text 'wrongemail@giropops.com' into text field 'email'</msg>
+<status status="PASS" endtime="20170508 13:14:19.409" starttime="20170508 13:14:19.032"></status>
 </kw>
 <kw name="Input Text" library="Selenium2Library">
 <doc>Types the given `text` into text field identified by `locator`.</doc>
@@ -180,34 +180,34 @@
 <arg>${pass_locator}</arg>
 <arg>${apass}</arg>
 </arguments>
-<msg timestamp="20170508 12:16:09.090" level="INFO">Typing text 'P4$$w0rd' into text field 'password'</msg>
-<status status="PASS" endtime="20170508 12:16:09.237" starttime="20170508 12:16:09.089"></status>
+<msg timestamp="20170508 13:14:19.410" level="INFO">Typing text 'P4$$w0rd' into text field 'password'</msg>
+<status status="PASS" endtime="20170508 13:14:19.647" starttime="20170508 13:14:19.410"></status>
 </kw>
 <kw name="Click Element" library="Selenium2Library">
 <doc>Click element identified by `locator`.</doc>
 <arguments>
 <arg>${login_button_locator}</arg>
 </arguments>
-<msg timestamp="20170508 12:16:09.238" level="INFO">Clicking element 'submit_button'.</msg>
-<status status="PASS" endtime="20170508 12:16:09.330" starttime="20170508 12:16:09.237"></status>
+<msg timestamp="20170508 13:14:19.647" level="INFO">Clicking element 'submit_button'.</msg>
+<status status="PASS" endtime="20170508 13:14:19.752" starttime="20170508 13:14:19.647"></status>
 </kw>
-<status status="PASS" endtime="20170508 12:16:09.330" starttime="20170508 12:16:08.845"></status>
+<status status="PASS" endtime="20170508 13:14:19.752" starttime="20170508 13:14:19.031"></status>
 </kw>
 <kw name="Wait Until Page Contains" library="Selenium2Library">
 <doc>Waits until `text` appears on current page.</doc>
 <arguments>
 <arg>E-mail ou senha incorretos</arg>
-<arg>10</arg>
+<arg>15</arg>
 </arguments>
-<status status="PASS" endtime="20170508 12:16:09.362" starttime="20170508 12:16:09.331"></status>
+<status status="PASS" endtime="20170508 13:14:19.784" starttime="20170508 13:14:19.752"></status>
 </kw>
 <kw name="Close Browser" library="Selenium2Library">
 <doc>Closes the current browser.</doc>
-<status status="PASS" endtime="20170508 12:16:09.439" starttime="20170508 12:16:09.362"></status>
+<status status="PASS" endtime="20170508 13:14:19.857" starttime="20170508 13:14:19.784"></status>
 </kw>
-<status status="PASS" endtime="20170508 12:16:09.439" critical="yes" starttime="20170508 12:16:03.415"></status>
+<status status="PASS" endtime="20170508 13:14:19.857" critical="yes" starttime="20170508 13:14:14.331"></status>
 </test>
-<status status="PASS" endtime="20170508 12:16:09.440" starttime="20170508 12:15:46.202"></status>
+<status status="PASS" endtime="20170508 13:14:19.858" starttime="20170508 13:13:56.049"></status>
 </suite>
 <statistics>
 <total>
