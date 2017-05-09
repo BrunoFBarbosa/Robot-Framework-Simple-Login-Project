@@ -20,13 +20,13 @@ Valid Login
 Invalid Login Wrong Pass
     Initialize Browser
     Fill Info And Login  ${valid_email}     wrongpass
-    Wait Until Page Contains    E-mail ou senha incorretos	10
+    Wait Until Page Contains    E-mail ou senha incorretos	15
     Close Browser
 
 Invalid Login Wrong Email
     Initialize Browser
     Fill Info And Login  wrongemail@giropops.com      ${valid_password}
-    Wait Until Page Contains    E-mail ou senha incorretos	10
+    Wait Until Page Contains    E-mail ou senha incorretos	15
     Close Browser
 
 
