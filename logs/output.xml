@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generated="20170514 23:13:11.232" generator="Robot 3.0.2 (Python 2.7.6 on linux2)">
+<suite source="/Simple-Login-Project/login.robot" id="s1" name="Login">
+<test id="s1-t1" name="Valid Login">
+<kw name="Initialize Browser" library="keywords">
+<kw name="Open Browser" library="Selenium2Library">
+<doc>Opens a new browser instance to given URL.</doc>
+<arguments>
+<arg>https://cliente.americanas.com.br/</arg>
+<arg>gc</arg>
+<arg>chrome</arg>
+<arg>http://172.17.0.1:4444/wd/hub</arg>
+</arguments>
+<msg timestamp="20170514 23:13:11.474" level="INFO">Opening browser 'gc' to base url 'https://cliente.americanas.com.br/' through remote server at 'http://172.17.0.1:4444/wd/hub'</msg>
+<status status="PASS" endtime="20170514 23:13:38.402" starttime="20170514 23:13:11.472"></status>
+</kw>
+<kw name="Maximize Browser Window" library="Selenium2Library">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" endtime="20170514 23:13:39.017" starttime="20170514 23:13:38.403"></status>
+</kw>
+<status status="PASS" endtime="20170514 23:13:39.017" starttime="20170514 23:13:11.470"></status>
+</kw>
+<kw name="Fill Info And Login" library="keywords">
+<arguments>
+<arg>${valid_email}</arg>
+<arg>${valid_password}</arg>
+</arguments>
+<kw name="Input Text" library="Selenium2Library">
+<doc>Types the given `text` into text field identified by `locator`.</doc>
+<arguments>
+<arg>${email_locator}</arg>
+<arg>${anemail}</arg>
+</arguments>
+<msg timestamp="20170514 23:13:39.019" level="INFO">Typing text 'thiagosouzalima@dayrep.com' into text field 'email'</msg>
+<status status="PASS" endtime="20170514 23:13:42.220" starttime="20170514 23:13:39.018"></status>
+</kw>
+<kw name="Input Text" library="Selenium2Library">
+<doc>Types the given `text` into text field identified by `locator`.</doc>
+<arguments>
+<arg>${pass_locator}</arg>
+<arg>${apass}</arg>
+</arguments>
+<msg timestamp="20170514 23:13:42.222" level="INFO">Typing text 'P4$$w0rd' into text field 'password'</msg>
+<status status="PASS" endtime="20170514 23:13:43.216" starttime="20170514 23:13:42.221"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>${login_button_locator}</arg>
+</arguments>
+<msg timestamp="20170514 23:13:43.220" level="INFO">Clicking element 'submit_button'.</msg>
+<status status="PASS" endtime="20170514 23:13:43.735" starttime="20170514 23:13:43.216"></status>
+</kw>
+<status status="PASS" endtime="20170514 23:13:43.736" starttime="20170514 23:13:39.017"></status>
+</kw>
+<kw name="Wait Until Page Contains" library="Selenium2Library">
+<doc>Waits until `text` appears on current page.</doc>
+<arguments>
+<arg>Não é você? Sair</arg>
+<arg>15</arg>
+</arguments>
+<status status="PASS" endtime="20170514 23:13:55.331" starttime="20170514 23:13:43.737"></status>
+</kw>
+<kw name="Location Should Contain" library="Selenium2Library">
+<doc>Verifies that current URL contains `expected`.</doc>
+<arguments>
+<arg>minhaconta.americanas</arg>
+</arguments>
+<msg timestamp="20170514 23:13:55.411" level="INFO">Current location contains 'minhaconta.americanas'.</msg>
+<status status="PASS" endtime="20170514 23:13:55.412" starttime="20170514 23:13:55.333"></status>
+</kw>
+<kw name="Close Browser" library="Selenium2Library">
+<doc>Closes the current browser.</doc>
+<status status="PASS" endtime="20170514 23:13:55.665" starttime="20170514 23:13:55.412"></status>
+</kw>
+<tags>
+<tag>valid_login</tag>
+</tags>
+<status status="PASS" endtime="20170514 23:13:55.666" critical="yes" starttime="20170514 23:13:11.465"></status>
+</test>
+<status status="PASS" endtime="20170514 23:13:55.674" starttime="20170514 23:13:11.234"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="0" pass="1">Critical Tests</stat>
+<stat fail="0" pass="1">All Tests</stat>
+</total>
+<tag>
+<stat fail="0" pass="1">valid_login</stat>
+</tag>
+<suite>
+<stat fail="0" id="s1" name="Login" pass="1">Login</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

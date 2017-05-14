@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cfbfa908-4307-4c9e-85d3-ff4dc4e5e4ca" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/log.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/output.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/report.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/login_keywords/keywords.robot" afterPath="$PROJECT_DIR$/login_keywords/keywords.robot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/login.robot" afterPath="$PROJECT_DIR$/login.robot" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,11 +14,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="login.robot" pinned="false" current-in-tab="false">
+      <file leaf-file-name="login.robot" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/login.robot">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="18" column="17" lean-forward="true" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+            <state relative-caret-position="386">
+              <caret line="32" column="17" lean-forward="false" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
               <folding>
                 <element signature="e#0#88#0" expanded="true" />
               </folding>
@@ -29,7 +26,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="keywords.robot" pinned="false" current-in-tab="true">
+      <file leaf-file-name="keywords.robot" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/login_keywords/keywords.robot">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="224">
@@ -49,8 +46,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/login.robot" />
         <option value="$PROJECT_DIR$/login_keywords/keywords.robot" />
+        <option value="$PROJECT_DIR$/login.robot" />
       </list>
     </option>
   </component>
@@ -165,22 +162,22 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/login.robot">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="18" column="17" lean-forward="true" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#88#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/login_keywords/keywords.robot">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
           <caret line="14" column="20" lean-forward="false" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
           <folding>
             <element signature="e#0#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="32" column="17" lean-forward="false" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#88#0" expanded="true" />
           </folding>
         </state>
       </provider>
