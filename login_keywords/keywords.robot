@@ -16,7 +16,7 @@ Fill Info And Login
 
 
 Initialize Browser
-    Open Browser    https://cliente.americanas.com.br/    gc    chrome      http://172.17.42.1:4444/wd/hub
+    Open Browser    https://cliente.americanas.com.br/    gc    chrome      http://172.17.0.1:4444/wd/hub
     Maximize Browser Window
 
 
