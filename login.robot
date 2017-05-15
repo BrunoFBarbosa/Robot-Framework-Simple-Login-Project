@@ -19,14 +19,14 @@ Valid Login
     Close Browser
 
 Invalid Login Wrong Pass
-    [Tags]  invalid_login_pass
+    [Tags]  invalid_pass
     Initialize Browser
     Fill Info And Login  ${valid_email}     wrongpass
     Wait Until Page Contains    E-mail ou senha incorretos	15
     Close Browser
 
 Invalid Login Wrong Email
-    [Tags]  invalid_login_email
+    [Tags]  invalid_email
     Initialize Browser
     Fill Info And Login  wrongemail@giropops.com      ${valid_password}
     Wait Until Page Contains    E-mail ou senha incorretos	15
